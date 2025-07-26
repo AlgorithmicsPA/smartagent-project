@@ -1,0 +1,443 @@
+=== REPORTE SMARTAGENT - 2025-07-25 19:37:26.062801 ===
+Páginas exploradas: 13
+URLs pendientes: 1
+URLs visitadas: 13
+
+
+==================================================
+URL: https://admin.besmartdelivery.mx/
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:22:12.826615
+
+Botones (7):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+  - Actions (tipo: button, id: )
+
+Inputs (1):
+  - text - query (id: query)
+
+Links (13):
+  - Tasks: https://admin.besmartdelivery.mx/tasks
+  - Orders: https://admin.besmartdelivery.mx/orders
+  - Quotes: https://admin.besmartdelivery.mx/purchase-quotes
+  - Vendors: https://admin.besmartdelivery.mx/vendors
+  - All customers: https://admin.besmartdelivery.mx/customers
+  - Deleted customers: https://admin.besmartdelivery.mx/customers/deleted
+  - Invoices: https://admin.besmartdelivery.mx/customers/invoices
+  - Book entries: https://admin.besmartdelivery.mx/customers/book-entries
+  - All riders: https://admin.besmartdelivery.mx/riders
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+
+Formularios (0):
+
+Tablas (0):
+
+==================================================
+URL: https://admin.besmartdelivery.mx/tasks
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:22:18.384303
+
+Botones (7):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+  - Actions (tipo: button, id: )
+
+Inputs (1):
+  - text - query (id: query)
+
+Links (13):
+  - Tasks: https://admin.besmartdelivery.mx/tasks
+  - Orders: https://admin.besmartdelivery.mx/orders
+  - Quotes: https://admin.besmartdelivery.mx/purchase-quotes
+  - Vendors: https://admin.besmartdelivery.mx/vendors
+  - All customers: https://admin.besmartdelivery.mx/customers
+  - Deleted customers: https://admin.besmartdelivery.mx/customers/deleted
+  - Invoices: https://admin.besmartdelivery.mx/customers/invoices
+  - Book entries: https://admin.besmartdelivery.mx/customers/book-entries
+  - All riders: https://admin.besmartdelivery.mx/riders
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+
+Formularios (0):
+
+Tablas (0):
+
+==================================================
+URL: https://admin.besmartdelivery.mx/orders
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:22:23.931741
+
+Botones (8):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+  - Only modified (tipo: , id: )
+  - Only referral (tipo: , id: )
+
+Inputs (1):
+  - text - query (id: query)
+
+Links (13):
+  - Orders: https://admin.besmartdelivery.mx/orders
+  - Quotes: https://admin.besmartdelivery.mx/purchase-quotes
+  - Vendors: https://admin.besmartdelivery.mx/vendors
+  - All customers: https://admin.besmartdelivery.mx/customers
+  - Deleted customers: https://admin.besmartdelivery.mx/customers/deleted
+  - Invoices: https://admin.besmartdelivery.mx/customers/invoices
+  - Book entries: https://admin.besmartdelivery.mx/customers/book-entries
+  - All riders: https://admin.besmartdelivery.mx/riders
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+  - Orders: https://admin.besmartdelivery.mx/orders
+
+Formularios (0):
+
+Tablas (0):
+
+==================================================
+URL: https://admin.besmartdelivery.mx/purchase-quotes
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:22:29.501764
+
+Botones (6):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+
+Inputs (0):
+
+Links (11):
+  - Quotes: https://admin.besmartdelivery.mx/purchase-quotes
+  - Vendors: https://admin.besmartdelivery.mx/vendors
+  - All customers: https://admin.besmartdelivery.mx/customers
+  - Deleted customers: https://admin.besmartdelivery.mx/customers/deleted
+  - Invoices: https://admin.besmartdelivery.mx/customers/invoices
+  - Book entries: https://admin.besmartdelivery.mx/customers/book-entries
+  - All riders: https://admin.besmartdelivery.mx/riders
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+
+Formularios (0):
+
+Tablas (1):
+  - : 1 filas
+
+==================================================
+URL: https://admin.besmartdelivery.mx/vendors
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:22:35.070023
+
+Botones (9):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+  - All partners (tipo: , id: )
+  - New partners (tipo: , id: )
+  - Exclusive partners (tipo: , id: )
+
+Inputs (1):
+  - text - query (id: query)
+
+Links (11):
+  - Vendors: https://admin.besmartdelivery.mx/vendors
+  - All customers: https://admin.besmartdelivery.mx/customers
+  - Deleted customers: https://admin.besmartdelivery.mx/customers/deleted
+  - Invoices: https://admin.besmartdelivery.mx/customers/invoices
+  - Book entries: https://admin.besmartdelivery.mx/customers/book-entries
+  - All riders: https://admin.besmartdelivery.mx/riders
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+  - Vendors: https://admin.besmartdelivery.mx/vendors
+
+Formularios (0):
+
+Tablas (0):
+
+==================================================
+URL: https://admin.besmartdelivery.mx/customers
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:22:40.620477
+
+Botones (7):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+  - Referrers (tipo: , id: )
+
+Inputs (1):
+  - text - query (id: query)
+
+Links (10):
+  - All customers: https://admin.besmartdelivery.mx/customers
+  - Deleted customers: https://admin.besmartdelivery.mx/customers/deleted
+  - Invoices: https://admin.besmartdelivery.mx/customers/invoices
+  - Book entries: https://admin.besmartdelivery.mx/customers/book-entries
+  - All riders: https://admin.besmartdelivery.mx/riders
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+  - Customers: https://admin.besmartdelivery.mx/customers
+
+Formularios (0):
+
+Tablas (0):
+
+==================================================
+URL: https://admin.besmartdelivery.mx/customers/deleted
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:22:45.915810
+
+Botones (16):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+
+Inputs (1):
+  - text - query (id: query)
+
+Links (9):
+  - Deleted customers: https://admin.besmartdelivery.mx/customers/deleted
+  - Invoices: https://admin.besmartdelivery.mx/customers/invoices
+  - Book entries: https://admin.besmartdelivery.mx/customers/book-entries
+  - All riders: https://admin.besmartdelivery.mx/riders
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+  - Deleted customers: https://admin.besmartdelivery.mx/customers/deleted
+
+Formularios (0):
+
+Tablas (1):
+  - : 11 filas
+
+==================================================
+URL: https://admin.besmartdelivery.mx/customers/invoices
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:22:51.397881
+
+Botones (6):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+
+Inputs (1):
+  - text - query (id: query)
+
+Links (8):
+  - Invoices: https://admin.besmartdelivery.mx/customers/invoices
+  - Book entries: https://admin.besmartdelivery.mx/customers/book-entries
+  - All riders: https://admin.besmartdelivery.mx/riders
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+  - Invoices: https://admin.besmartdelivery.mx/customers/invoices
+
+Formularios (0):
+
+Tablas (1):
+  - : 2 filas
+
+==================================================
+URL: https://admin.besmartdelivery.mx/customers/book-entries
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:22:56.871742
+
+Botones (6):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+
+Inputs (0):
+
+Links (7):
+  - Book entries: https://admin.besmartdelivery.mx/customers/book-entries
+  - All riders: https://admin.besmartdelivery.mx/riders
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+  - Customer book entries: https://admin.besmartdelivery.mx/customers/book-entries
+
+Formularios (0):
+
+Tablas (1):
+  - : 0 filas
+
+==================================================
+URL: https://admin.besmartdelivery.mx/riders
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:23:02.398287
+
+Botones (14):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+
+Inputs (1):
+  - text - query (id: query)
+
+Links (6):
+  - All riders: https://admin.besmartdelivery.mx/riders
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+  - Riders: https://admin.besmartdelivery.mx/riders
+
+Formularios (0):
+
+Tablas (1):
+  - : 9 filas
+
+==================================================
+URL: https://admin.besmartdelivery.mx/riders/new
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:23:07.658230
+
+Botones (7):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+  - Create (tipo: button, id: )
+
+Inputs (4):
+  - text - name (id: )
+  - text - username (id: )
+  - text - password (id: )
+  - text - email (id: )
+
+Links (5):
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+  - New rider: https://admin.besmartdelivery.mx/riders/new
+
+Formularios (1):
+  - get -> 
+
+Tablas (0):
+
+==================================================
+URL: https://admin.besmartdelivery.mx/riders/breaks
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:23:13.104677
+
+Botones (6):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+
+Inputs (1):
+  - text - query (id: query)
+
+Links (4):
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+  - Breaks: https://admin.besmartdelivery.mx/riders/breaks
+
+Formularios (0):
+
+Tablas (1):
+  - : 1 filas
+
+==================================================
+URL: https://admin.besmartdelivery.mx/riders/workshifts
+Título: Dashboard | Besmartdelivery.mx
+Timestamp: 2025-07-25T19:37:21.930942
+
+Botones (9):
+  - Vendors (tipo: , id: )
+  - Customers (tipo: , id: )
+  - Riders (tipo: , id: )
+  -  (tipo: button, id: )
+  - Español (tipo: , id: )
+  - manus (tipo: , id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+  -  (tipo: button, id: )
+
+Inputs (1):
+  - text - query (id: query)
+
+Links (3):
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+  - Modifications: https://admin.besmartdelivery.mx/riders/modifications
+  - Workshifts: https://admin.besmartdelivery.mx/riders/workshifts
+
+Formularios (0):
+
+Tablas (1):
+  - : 4 filas

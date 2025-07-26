@@ -1,0 +1,15 @@
+=== PROGRESO SMARTAGENT ===
+Última actualización: 2025-07-25 19:37:26.065206
+Páginas exploradas: 13
+URLs pendientes: 1
+URLs visitadas: 13
+
+Últimas 5 páginas exploradas:
+1. https://admin.besmartdelivery.mx/customers/book-entries
+2. https://admin.besmartdelivery.mx/riders
+3. https://admin.besmartdelivery.mx/riders/new
+4. https://admin.besmartdelivery.mx/riders/breaks
+5. https://admin.besmartdelivery.mx/riders/workshifts
+
+Próximas URLs a explorar:
+1. https://admin.besmartdelivery.mx/riders/workshifts

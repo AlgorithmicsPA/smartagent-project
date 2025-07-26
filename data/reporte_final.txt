@@ -1,0 +1,100 @@
+=== REPORTE FINAL SMARTAGENT ===
+Fecha de finalización: 2025-07-25 19:37:34.112698
+Total de páginas exploradas: 14
+URLs visitadas: 14
+URLs pendientes: 0
+
+RESUMEN DE EXPLORACIÓN:
+==================================================
+Total botones encontrados: 115
+Total inputs encontrados: 15
+Total links encontrados: 114
+Total formularios encontrados: 1
+Total tablas encontradas: 8
+
+PÁGINAS EXPLORADAS:
+==================================================
+1. https://admin.besmartdelivery.mx/
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 7
+   Inputs: 1
+   Links: 13
+
+2. https://admin.besmartdelivery.mx/tasks
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 7
+   Inputs: 1
+   Links: 13
+
+3. https://admin.besmartdelivery.mx/orders
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 8
+   Inputs: 1
+   Links: 13
+
+4. https://admin.besmartdelivery.mx/purchase-quotes
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 6
+   Inputs: 0
+   Links: 11
+
+5. https://admin.besmartdelivery.mx/vendors
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 9
+   Inputs: 1
+   Links: 11
+
+6. https://admin.besmartdelivery.mx/customers
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 7
+   Inputs: 1
+   Links: 10
+
+7. https://admin.besmartdelivery.mx/customers/deleted
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 16
+   Inputs: 1
+   Links: 9
+
+8. https://admin.besmartdelivery.mx/customers/invoices
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 6
+   Inputs: 1
+   Links: 8
+
+9. https://admin.besmartdelivery.mx/customers/book-entries
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 6
+   Inputs: 0
+   Links: 7
+
+10. https://admin.besmartdelivery.mx/riders
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 14
+   Inputs: 1
+   Links: 6
+
+11. https://admin.besmartdelivery.mx/riders/new
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 7
+   Inputs: 4
+   Links: 5
+
+12. https://admin.besmartdelivery.mx/riders/breaks
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 6
+   Inputs: 1
+   Links: 4
+
+13. https://admin.besmartdelivery.mx/riders/workshifts
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 9
+   Inputs: 1
+   Links: 3
+
+14. https://admin.besmartdelivery.mx/riders/modifications
+   Título: Dashboard | Besmartdelivery.mx
+   Botones: 7
+   Inputs: 1
+   Links: 1
+

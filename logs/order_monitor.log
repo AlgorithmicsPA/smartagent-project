@@ -1,0 +1,1579 @@
+2025-07-25 20:40:19,382 - INFO - ✅ Conexión a base de datos establecida
+2025-07-25 20:40:19,383 - INFO - 🚀 Iniciando Monitor de Pedidos en Tiempo Real
+2025-07-25 20:40:19,384 - INFO - ====== WebDriver manager ======
+2025-07-25 20:40:24,467 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 20:40:24,720 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 20:40:24,911 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 20:40:26,512 - INFO - ✅ ChromeDriver configurado para monitoreo
+2025-07-25 20:40:26,515 - INFO - 🔐 Iniciando sesión con usuario: federico
+2025-07-25 20:40:41,358 - INFO - ✅ Login exitoso
+2025-07-25 20:40:44,785 - INFO - ✅ Navegado a página de pedidos: //a[contains(@href, 'order')]
+2025-07-25 20:40:44,820 - INFO - 🔍 Iniciando monitoreo de pedidos en tiempo real...
+2025-07-25 20:51:16,589 - INFO - ✅ Conexión a base de datos establecida
+2025-07-25 20:51:16,592 - INFO - 🚀 Iniciando Monitor de Active_Orders en /task
+2025-07-25 20:51:16,593 - INFO - ====== WebDriver manager ======
+2025-07-25 20:51:22,580 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 20:51:22,752 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 20:51:22,921 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 20:51:24,929 - INFO - ✅ ChromeDriver configurado para monitoreo
+2025-07-25 20:51:24,938 - INFO - 🔐 Iniciando sesión con usuario: federico
+2025-07-25 20:51:39,057 - INFO - ✅ Login exitoso
+2025-07-25 20:51:39,061 - INFO - 🎯 Navegando a página específica: https://admin.besmartdelivery.mx/task
+2025-07-25 20:51:44,403 - INFO - ✅ Navegado exitosamente a página /task: https://admin.besmartdelivery.mx/task
+2025-07-25 20:51:44,789 - INFO - ✅ En página /task, continuando con monitoreo
+2025-07-25 20:51:44,803 - INFO - 🔍 Iniciando monitoreo de active_orders en /task...
+2025-07-25 20:51:44,870 - INFO - 🔍 No se encontraron contenedores específicos de active_orders, buscando en toda la página
+2025-07-25 20:51:44,879 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 20:51:45,016 - INFO - 🎯 Nuevo active_order detectado: sOrdersQuotesVendorsVendorsNew
+2025-07-25 20:51:45,415 - INFO - 🎯 Nuevo active_order detectado: s
+2025-07-25 20:51:45,726 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 20:51:45,885 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 20:52:16,042 - INFO - 🔍 No se encontraron contenedores específicos de active_orders, buscando en toda la página
+2025-07-25 20:52:16,048 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 20:52:46,544 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.101); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x322123]
+	(No symbol) [0x0x311b30]
+	(No symbol) [0x0x32f8f2]
+	(No symbol) [0x0x395cbc]
+	(No symbol) [0x0x3b0089]
+	(No symbol) [0x0x38f1b6]
+	(No symbol) [0x0x35e7a2]
+	(No symbol) [0x0x35f644]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	GetHandleVerifier [0x0x4e9a38+94920]
+	GetHandleVerifier [0x0x4e9bc2+95314]
+	GetHandleVerifier [0x0x4d4d0a+9626]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 20:53:16,554 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 20:53:46,567 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 20:54:16,571 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 20:54:46,576 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 20:55:16,580 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 20:55:46,594 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 20:56:16,602 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 20:56:46,610 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 20:57:53,452 - INFO - ✅ Conexión a base de datos establecida
+2025-07-25 20:57:53,453 - INFO - 🚀 Iniciando Monitor de Active_Orders en /tasks
+2025-07-25 20:57:53,465 - INFO - ====== WebDriver manager ======
+2025-07-25 20:57:58,815 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 20:57:58,985 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 20:57:59,163 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 20:58:00,805 - INFO - ✅ ChromeDriver configurado para monitoreo
+2025-07-25 20:58:00,840 - INFO - 🔐 Iniciando sesión con usuario: federico
+2025-07-25 20:58:16,156 - INFO - ✅ Login exitoso
+2025-07-25 20:58:16,167 - INFO - 🎯 Navegando a página específica: https://admin.besmartdelivery.mx/tasks
+2025-07-25 20:58:21,733 - INFO - ✅ Navegado exitosamente a página /tasks: https://admin.besmartdelivery.mx/tasks
+2025-07-25 20:58:22,009 - INFO - ✅ En página /tasks, continuando con monitoreo
+2025-07-25 20:58:22,039 - INFO - 🔍 Iniciando monitoreo de active_orders en /tasks...
+2025-07-25 20:58:22,188 - INFO - 🔍 No se encontraron contenedores específicos de active_orders, buscando en toda la página
+2025-07-25 20:58:22,196 - INFO - 📊 Encontrados 12 contenedores de active_orders
+2025-07-25 20:58:22,325 - INFO - 🎯 Nuevo active_order detectado: sOrdersQuotesVendorsVendorsNew
+2025-07-25 20:58:22,615 - INFO - 🎯 Nuevo active_order detectado: s
+2025-07-25 20:58:22,655 - INFO - 🎯 Nuevo active_order detectado: s1Wait
+2025-07-25 20:58:22,728 - INFO - 🎯 Nuevo active_order detectado: s1
+2025-07-25 20:58:22,928 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 20:58:23,070 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 20:58:23,241 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 20:58:23,395 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 20:58:53,487 - INFO - 🔍 No se encontraron contenedores específicos de active_orders, buscando en toda la página
+2025-07-25 20:58:53,489 - INFO - 📊 Encontrados 12 contenedores de active_orders
+2025-07-25 20:59:23,888 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 20:59:53,948 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:00:24,071 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:00:54,139 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:01:24,199 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:01:54,263 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:02:24,327 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:02:54,377 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:03:24,427 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:03:54,495 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:04:24,553 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:04:54,606 - INFO - 📊 Encontrados 1 contenedores de active_orders
+2025-07-25 21:05:07,490 - INFO - ✅ Conexión a base de datos establecida
+2025-07-25 21:05:07,491 - INFO - 🚀 Iniciando Monitor de Active_Orders en /tasks
+2025-07-25 21:05:07,491 - INFO - ====== WebDriver manager ======
+2025-07-25 21:05:13,092 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:05:13,280 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:05:13,473 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 21:05:16,377 - INFO - ✅ ChromeDriver configurado para monitoreo
+2025-07-25 21:05:16,377 - INFO - 🔐 Iniciando sesión con usuario: federico
+2025-07-25 21:05:30,512 - INFO - ✅ Login exitoso
+2025-07-25 21:05:30,513 - INFO - 🎯 Navegando a página específica: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:05:35,796 - INFO - ✅ Navegado exitosamente a página /tasks: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:05:35,954 - INFO - ✅ En página /tasks, continuando con monitoreo
+2025-07-25 21:05:35,955 - INFO - 🔍 Iniciando monitoreo de active_orders en /tasks...
+2025-07-25 21:05:36,002 - INFO - 🔍 No se encontraron contenedores específicos de active_orders, buscando en toda la página
+2025-07-25 21:05:36,004 - INFO - 📊 Encontrados 11 contenedores de active_orders
+2025-07-25 21:05:36,159 - INFO - 🎯 Nuevo active_order detectado: sOrdersQuotesVendorsVendorsNew
+2025-07-25 21:05:36,503 - INFO - 🎯 Nuevo active_order detectado: s
+2025-07-25 21:05:36,535 - INFO - 🎯 Nuevo active_order detectado: s1Wait
+2025-07-25 21:05:36,607 - INFO - 🎯 Nuevo active_order detectado: s1
+2025-07-25 21:05:36,739 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:05:36,876 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:05:37,016 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:05:37,158 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:06:07,268 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:06:07,272 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:06:07,384 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:06:37,498 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:07:07,640 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:07:37,730 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:07:43,313 - INFO - ✅ Conexión a base de datos establecida
+2025-07-25 21:07:43,314 - INFO - 🚀 Iniciando Monitor de Active_Orders en /tasks
+2025-07-25 21:07:43,315 - INFO - ====== WebDriver manager ======
+2025-07-25 21:07:47,762 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:07:47,933 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:07:48,105 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 21:07:50,039 - INFO - ✅ ChromeDriver configurado para monitoreo
+2025-07-25 21:07:50,040 - INFO - 🔐 Iniciando sesión con usuario: federico
+2025-07-25 21:08:02,136 - INFO - ✅ Login exitoso
+2025-07-25 21:08:02,138 - INFO - 🎯 Navegando a página específica: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:08:07,472 - INFO - ✅ Navegado exitosamente a página /tasks: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:08:07,647 - INFO - ✅ En página /tasks, continuando con monitoreo
+2025-07-25 21:08:07,648 - INFO - 🔍 Iniciando monitoreo de active_orders en /tasks...
+2025-07-25 21:08:07,736 - INFO - 🔍 No se encontraron contenedores específicos de active_orders, buscando en toda la página
+2025-07-25 21:08:07,778 - INFO - 📊 Encontrados 11 contenedores de active_orders
+2025-07-25 21:08:07,986 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:08:08,061 - INFO - 🎯 Nuevo active_order detectado: sOrdersQuotesVendorsVendorsNew
+2025-07-25 21:08:08,388 - INFO - 🎯 Nuevo active_order detectado: s
+2025-07-25 21:08:08,423 - INFO - 🎯 Nuevo active_order detectado: s2Wait
+2025-07-25 21:08:08,510 - INFO - 🎯 Nuevo active_order detectado: s2
+2025-07-25 21:08:08,613 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:08:08,764 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:08:08,905 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:08:09,042 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:08:38,075 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:08:39,146 - INFO - 🔍 No se encontraron contenedores específicos de active_orders, buscando en toda la página
+2025-07-25 21:08:39,148 - INFO - 📊 Encontrados 11 contenedores de active_orders
+2025-07-25 21:09:08,173 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:09:09,750 - INFO - 🔍 No se encontraron contenedores específicos de active_orders, buscando en toda la página
+2025-07-25 21:09:09,752 - INFO - 📊 Encontrados 11 contenedores de active_orders
+2025-07-25 21:09:38,258 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:10:08,372 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:10:38,511 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:11:08,537 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.101); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x322123]
+	(No symbol) [0x0x311b30]
+	(No symbol) [0x0x32f8f2]
+	(No symbol) [0x0x395cbc]
+	(No symbol) [0x0x3b0089]
+	(No symbol) [0x0x38f1b6]
+	(No symbol) [0x0x35e7a2]
+	(No symbol) [0x0x35f644]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	GetHandleVerifier [0x0x4e9a38+94920]
+	GetHandleVerifier [0x0x4e9bc2+95314]
+	GetHandleVerifier [0x0x4d4d0a+9626]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:11:38,544 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:12:08,547 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:12:38,549 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:13:08,559 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:13:18,159 - INFO - ✅ Conexión a base de datos establecida
+2025-07-25 21:13:18,159 - INFO - 🚀 Iniciando Monitor de Active_Orders en /tasks
+2025-07-25 21:13:18,160 - INFO - ====== WebDriver manager ======
+2025-07-25 21:13:21,916 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:13:22,081 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:13:22,256 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 21:13:24,236 - INFO - ✅ ChromeDriver configurado para monitoreo
+2025-07-25 21:13:24,238 - INFO - 🔐 Iniciando sesión con usuario: federico
+2025-07-25 21:13:37,016 - INFO - ✅ Login exitoso
+2025-07-25 21:13:37,017 - INFO - 🎯 Navegando a página específica: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:13:38,563 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:13:42,496 - INFO - ✅ Navegado exitosamente a página /tasks: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:13:45,699 - INFO - ✅ Botón Active orders encontrado y clickeado: //div[contains(@class, 'btn')]//span[contains(@class, 'label') and contains(text(), 'Active orders')]
+2025-07-25 21:13:45,909 - INFO - ✅ En página /tasks, continuando con monitoreo
+2025-07-25 21:13:45,911 - INFO - 🔍 Iniciando monitoreo de active_orders en /tasks...
+2025-07-25 21:13:46,014 - INFO - 📊 Encontrados 10 contenedores de active_orders
+2025-07-25 21:13:46,023 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:13:46,030 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:13:46,091 - INFO - 🎯 Nuevo active_order detectado: s
+2025-07-25 21:13:46,096 - ERROR - ❌ Error guardando active_order en BD: SSL connection has been closed unexpectedly
+
+2025-07-25 21:13:46,097 - ERROR - ❌ Error en monitoreo de active_orders: connection already closed
+2025-07-25 21:14:08,566 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:14:16,258 - INFO - 📊 Encontrados 10 contenedores de active_orders
+2025-07-25 21:14:38,570 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:14:46,418 - INFO - 📊 Encontrados 10 contenedores de active_orders
+2025-07-25 21:15:08,573 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:15:16,587 - INFO - 📊 Encontrados 10 contenedores de active_orders
+2025-07-25 21:15:38,586 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:15:46,782 - INFO - 📊 Encontrados 12 contenedores de active_orders
+2025-07-25 21:16:08,590 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:16:16,989 - INFO - 📊 Encontrados 12 contenedores de active_orders
+2025-07-25 21:16:38,595 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:17:08,600 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:17:31,730 - INFO - ✅ Conexión a base de datos establecida
+2025-07-25 21:17:31,731 - INFO - 🚀 Iniciando Monitor de Active_Orders en /tasks
+2025-07-25 21:17:31,732 - INFO - ====== WebDriver manager ======
+2025-07-25 21:17:35,726 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:17:35,984 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:17:36,147 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 21:17:37,770 - INFO - ✅ ChromeDriver configurado para monitoreo
+2025-07-25 21:17:37,786 - INFO - 🔐 Iniciando sesión con usuario: federico
+2025-07-25 21:17:38,605 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:17:51,667 - INFO - ✅ Login exitoso
+2025-07-25 21:17:51,668 - INFO - 🎯 Navegando a página específica: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:17:57,833 - INFO - ✅ Navegado exitosamente a página /tasks: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:18:00,971 - INFO - ✅ Botón Active orders encontrado y clickeado: //div[contains(@class, 'btn')]//span[contains(@class, 'label') and contains(text(), 'Active orders')]
+2025-07-25 21:18:01,158 - INFO - ✅ En página /tasks, continuando con monitoreo
+2025-07-25 21:18:01,159 - INFO - 🔍 Iniciando monitoreo de active_orders en /tasks...
+2025-07-25 21:18:01,238 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:18:01,247 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:18:01,293 - INFO - 🎯 Nuevo active_order detectado: s
+2025-07-25 21:18:01,413 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:18:01,554 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:18:08,612 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:18:31,663 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:18:38,615 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:19:01,775 - INFO - 📊 Encontrados 6 contenedores de active_orders
+2025-07-25 21:19:08,618 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:19:38,621 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:20:08,624 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:20:38,629 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:21:02,810 - INFO - ✅ Conexión a base de datos establecida
+2025-07-25 21:21:02,811 - INFO - 🚀 Iniciando Monitor de Active_Orders en /tasks
+2025-07-25 21:21:02,813 - INFO - ====== WebDriver manager ======
+2025-07-25 21:21:06,367 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:21:06,530 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:21:06,702 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 21:21:08,188 - INFO - ✅ ChromeDriver configurado para monitoreo
+2025-07-25 21:21:08,202 - INFO - 🔐 Iniciando sesión con usuario: federico
+2025-07-25 21:21:08,736 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:21:20,369 - INFO - ✅ Login exitoso
+2025-07-25 21:21:20,370 - INFO - 🎯 Navegando a página específica: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:21:26,279 - INFO - ✅ Navegado exitosamente a página /tasks: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:21:29,766 - INFO - ✅ Botón Active orders encontrado y clickeado: //div[contains(@class, 'btn')]//span[contains(@class, 'label') and contains(text(), 'Active orders')]
+2025-07-25 21:21:30,568 - INFO - ✅ En página /tasks, continuando con monitoreo
+2025-07-25 21:21:30,571 - INFO - 🔍 Iniciando monitoreo de active_orders en /tasks...
+2025-07-25 21:21:30,802 - INFO - 📊 Encontrados 14 contenedores de active_orders
+2025-07-25 21:21:31,009 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:21:31,124 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:31,172 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:21:31,284 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:31,334 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:21:31,433 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:31,481 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:21:31,588 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:31,637 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:21:31,736 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:31,785 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:21:31,883 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:31,934 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:21:32,039 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:32,087 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:21:32,189 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:32,236 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:21:32,335 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:32,384 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:21:32,484 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:32,537 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:21:32,639 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:32,688 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:21:32,800 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:32,846 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:21:32,949 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:32,997 - INFO - 🎯 Nuevo active_order detectado: s
+2025-07-25 21:21:33,098 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:33,251 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:33,414 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:33,563 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:33,709 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:33,855 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:34,001 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:34,148 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:34,289 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:34,433 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:34,581 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:34,733 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:34,882 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:35,033 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:35,179 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:21:38,815 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:22:05,344 - INFO - 📊 Encontrados 14 contenedores de active_orders
+2025-07-25 21:22:08,818 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:22:38,820 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:23:03,082 - INFO - ✅ Conexión a base de datos establecida
+2025-07-25 21:23:03,083 - INFO - 🚀 Iniciando Monitor de Active_Orders en /tasks
+2025-07-25 21:23:03,084 - INFO - ====== WebDriver manager ======
+2025-07-25 21:23:06,797 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:23:06,966 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:23:07,148 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 21:23:08,639 - INFO - ✅ ChromeDriver configurado para monitoreo
+2025-07-25 21:23:08,639 - INFO - 🔐 Iniciando sesión con usuario: federico
+2025-07-25 21:23:08,829 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:23:22,190 - INFO - ✅ Login exitoso
+2025-07-25 21:23:22,191 - INFO - 🎯 Navegando a página específica: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:23:27,595 - INFO - ✅ Navegado exitosamente a página /tasks: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:23:30,753 - INFO - ✅ Botón Active orders encontrado y clickeado: //div[contains(@class, 'btn')]//span[contains(@class, 'label') and contains(text(), 'Active orders')]
+2025-07-25 21:23:30,917 - INFO - ✅ En página /tasks, continuando con monitoreo
+2025-07-25 21:23:30,918 - INFO - 🔍 Iniciando monitoreo de active_orders en /tasks...
+2025-07-25 21:23:31,040 - INFO - 📊 Encontrados 19 contenedores de active_orders
+2025-07-25 21:23:31,169 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:23:31,270 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:31,315 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:23:32,273 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:33,232 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:23:34,438 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:35,381 - INFO - 🎯 Nuevo active_order detectado: 4
+2025-07-25 21:23:35,481 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:35,529 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:23:35,622 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:35,668 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:23:35,770 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:35,816 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:23:35,910 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:35,959 - INFO - 🎯 Nuevo active_order detectado: 4
+2025-07-25 21:23:36,055 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:36,102 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:23:36,201 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:36,249 - INFO - 🎯 Nuevo active_order detectado: 4
+2025-07-25 21:23:36,351 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:36,398 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:23:36,497 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:36,544 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:23:36,642 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:36,690 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:23:36,786 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:36,833 - INFO - 🎯 Nuevo active_order detectado: 4
+2025-07-25 21:23:36,927 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:36,975 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:23:37,074 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:37,123 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:23:37,226 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:37,276 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:23:37,379 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:37,425 - INFO - 🎯 Nuevo active_order detectado: 4
+2025-07-25 21:23:37,524 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:37,573 - INFO - 🎯 Nuevo active_order detectado: s
+2025-07-25 21:23:37,670 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:37,814 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:37,956 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:38,102 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:38,249 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:38,391 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:38,533 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:38,676 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:38,820 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:38,838 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:23:38,964 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:39,110 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:39,253 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:39,395 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:39,534 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:39,674 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:39,816 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:39,969 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:40,114 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:40,257 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:23:40,403 - ERROR - ❌ Error guardando active_order en BD: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-07-25 21:24:08,843 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:24:10,595 - INFO - 📊 Encontrados 19 contenedores de active_orders
+2025-07-25 21:24:38,849 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:24:40,850 - INFO - 📊 Encontrados 19 contenedores de active_orders
+2025-07-25 21:25:08,853 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:25:38,857 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:26:08,859 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:26:38,861 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:27:08,864 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:27:18,194 - INFO - ✅ Conexión a base de datos establecida
+2025-07-25 21:27:18,195 - INFO - 🚀 Iniciando Monitor de Active_Orders en /tasks
+2025-07-25 21:27:18,195 - INFO - ====== WebDriver manager ======
+2025-07-25 21:27:21,924 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:27:22,090 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 21:27:22,260 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 21:27:23,707 - INFO - ✅ ChromeDriver configurado para monitoreo
+2025-07-25 21:27:23,723 - INFO - 🔐 Iniciando sesión con usuario: federico
+2025-07-25 21:27:37,710 - INFO - ✅ Login exitoso
+2025-07-25 21:27:37,710 - INFO - 🎯 Navegando a página específica: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:27:38,868 - ERROR - ❌ Error extrayendo active_orders: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x321f80]
+	(No symbol) [0x0x35da98]
+	(No symbol) [0x0x38f276]
+	(No symbol) [0x0x38ae75]
+	(No symbol) [0x0x38a3f6]
+	(No symbol) [0x0x2f3a45]
+	(No symbol) [0x0x2f3f9e]
+	(No symbol) [0x0x2f442d]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	(No symbol) [0x0x2f3710]
+	(No symbol) [0x0x2f2f1d]
+	GetHandleVerifier [0x0x88a71c+3899308]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 21:27:43,257 - INFO - ✅ Navegado exitosamente a página /tasks: https://admin.besmartdelivery.mx/tasks
+2025-07-25 21:27:46,426 - INFO - ✅ Botón Active orders encontrado y clickeado: //div[contains(@class, 'btn')]//span[contains(@class, 'label') and contains(text(), 'Active orders')]
+2025-07-25 21:27:46,605 - INFO - ✅ En página /tasks, continuando con monitoreo
+2025-07-25 21:27:46,607 - INFO - 🔍 Iniciando monitoreo de active_orders en /tasks...
+2025-07-25 21:27:46,718 - INFO - 📊 Encontrados 15 contenedores de active_orders
+2025-07-25 21:27:46,829 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:27:47,146 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:47,194 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:27:47,442 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:47,491 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:27:47,732 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:47,779 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:27:48,022 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:48,069 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:27:48,313 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:48,367 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:27:48,609 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:48,657 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:27:48,918 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:48,966 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:27:49,203 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:49,249 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:27:49,498 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:49,544 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:27:49,787 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:49,834 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:27:50,070 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:50,117 - INFO - 🎯 Nuevo active_order detectado: 1
+2025-07-25 21:27:50,358 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:50,407 - INFO - 🎯 Nuevo active_order detectado: 2
+2025-07-25 21:27:50,652 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:50,697 - INFO - 🎯 Nuevo active_order detectado: 3
+2025-07-25 21:27:50,941 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:50,990 - INFO - 🎯 Nuevo active_order detectado: s
+2025-07-25 21:27:51,235 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:51,518 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:51,797 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:52,091 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:52,380 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:52,669 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:52,954 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:53,239 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:53,522 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:53,810 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:54,089 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:54,392 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:54,679 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:54,956 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:55,239 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+
+2025-07-25 21:27:55,525 - ERROR - ❌ Error guardando active_order en BD: column "notes" of relation "orders" does not exist
+LINE 3: ...            product_type, priority_level, created_at, notes)
+                                                                 ^
+

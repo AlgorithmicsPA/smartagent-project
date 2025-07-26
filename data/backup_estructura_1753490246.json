@@ -1,0 +1,1307 @@
+{
+  "https://admin.besmartdelivery.mx/": {
+    "url": "https://admin.besmartdelivery.mx/",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:22:12.826615",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Actions",
+        "tipo": "button",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "query",
+        "id": "query",
+        "placeholder": "Type here for searching"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/tasks",
+        "texto": "Tasks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/orders",
+        "texto": "Orders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/purchase-quotes",
+        "texto": "Quotes"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/vendors",
+        "texto": "Vendors"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers",
+        "texto": "All customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/deleted",
+        "texto": "Deleted customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/invoices",
+        "texto": "Invoices"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+        "texto": "Book entries"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "All riders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      }
+    ],
+    "forms": [],
+    "tables": []
+  },
+  "https://admin.besmartdelivery.mx/tasks": {
+    "url": "https://admin.besmartdelivery.mx/tasks",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:22:18.384303",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Actions",
+        "tipo": "button",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "query",
+        "id": "query",
+        "placeholder": "Type here for searching"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/tasks",
+        "texto": "Tasks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/orders",
+        "texto": "Orders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/purchase-quotes",
+        "texto": "Quotes"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/vendors",
+        "texto": "Vendors"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers",
+        "texto": "All customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/deleted",
+        "texto": "Deleted customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/invoices",
+        "texto": "Invoices"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+        "texto": "Book entries"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "All riders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      }
+    ],
+    "forms": [],
+    "tables": []
+  },
+  "https://admin.besmartdelivery.mx/orders": {
+    "url": "https://admin.besmartdelivery.mx/orders",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:22:23.931741",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Only modified",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Only referral",
+        "tipo": "",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "query",
+        "id": "query",
+        "placeholder": "Type here for searching"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/orders",
+        "texto": "Orders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/purchase-quotes",
+        "texto": "Quotes"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/vendors",
+        "texto": "Vendors"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers",
+        "texto": "All customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/deleted",
+        "texto": "Deleted customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/invoices",
+        "texto": "Invoices"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+        "texto": "Book entries"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "All riders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/orders",
+        "texto": "Orders"
+      }
+    ],
+    "forms": [],
+    "tables": []
+  },
+  "https://admin.besmartdelivery.mx/purchase-quotes": {
+    "url": "https://admin.besmartdelivery.mx/purchase-quotes",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:22:29.501764",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      }
+    ],
+    "inputs": [],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/purchase-quotes",
+        "texto": "Quotes"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/vendors",
+        "texto": "Vendors"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers",
+        "texto": "All customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/deleted",
+        "texto": "Deleted customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/invoices",
+        "texto": "Invoices"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+        "texto": "Book entries"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "All riders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      }
+    ],
+    "forms": [],
+    "tables": [
+      {
+        "id": "",
+        "class": [
+          "responsive-table"
+        ],
+        "rows": 1
+      }
+    ]
+  },
+  "https://admin.besmartdelivery.mx/vendors": {
+    "url": "https://admin.besmartdelivery.mx/vendors",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:22:35.070023",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "All partners",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "New partners",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Exclusive partners",
+        "tipo": "",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "query",
+        "id": "query",
+        "placeholder": "Type here for searching"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/vendors",
+        "texto": "Vendors"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers",
+        "texto": "All customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/deleted",
+        "texto": "Deleted customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/invoices",
+        "texto": "Invoices"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+        "texto": "Book entries"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "All riders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/vendors",
+        "texto": "Vendors"
+      }
+    ],
+    "forms": [],
+    "tables": []
+  },
+  "https://admin.besmartdelivery.mx/customers": {
+    "url": "https://admin.besmartdelivery.mx/customers",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:22:40.620477",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Referrers",
+        "tipo": "",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "query",
+        "id": "query",
+        "placeholder": "Type here for searching"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/customers",
+        "texto": "All customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/deleted",
+        "texto": "Deleted customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/invoices",
+        "texto": "Invoices"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+        "texto": "Book entries"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "All riders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers",
+        "texto": "Customers"
+      }
+    ],
+    "forms": [],
+    "tables": []
+  },
+  "https://admin.besmartdelivery.mx/customers/deleted": {
+    "url": "https://admin.besmartdelivery.mx/customers/deleted",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:22:45.915810",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "query",
+        "id": "query",
+        "placeholder": "Type here for searching"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/deleted",
+        "texto": "Deleted customers"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/invoices",
+        "texto": "Invoices"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+        "texto": "Book entries"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "All riders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/deleted",
+        "texto": "Deleted customers"
+      }
+    ],
+    "forms": [],
+    "tables": [
+      {
+        "id": "",
+        "class": [
+          "responsive-table"
+        ],
+        "rows": 11
+      }
+    ]
+  },
+  "https://admin.besmartdelivery.mx/customers/invoices": {
+    "url": "https://admin.besmartdelivery.mx/customers/invoices",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:22:51.397881",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "query",
+        "id": "query",
+        "placeholder": "Type here for searching"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/invoices",
+        "texto": "Invoices"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+        "texto": "Book entries"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "All riders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/invoices",
+        "texto": "Invoices"
+      }
+    ],
+    "forms": [],
+    "tables": [
+      {
+        "id": "",
+        "class": [
+          "responsive-table"
+        ],
+        "rows": 2
+      }
+    ]
+  },
+  "https://admin.besmartdelivery.mx/customers/book-entries": {
+    "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:22:56.871742",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      }
+    ],
+    "inputs": [],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+        "texto": "Book entries"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "All riders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/customers/book-entries",
+        "texto": "Customer book entries"
+      }
+    ],
+    "forms": [],
+    "tables": [
+      {
+        "id": "",
+        "class": [
+          "responsive-table"
+        ],
+        "rows": 0
+      }
+    ]
+  },
+  "https://admin.besmartdelivery.mx/riders": {
+    "url": "https://admin.besmartdelivery.mx/riders",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:23:02.398287",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "query",
+        "id": "query",
+        "placeholder": "Type here for search"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "All riders"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders",
+        "texto": "Riders"
+      }
+    ],
+    "forms": [],
+    "tables": [
+      {
+        "id": "",
+        "class": [
+          "responsive-table"
+        ],
+        "rows": 9
+      }
+    ]
+  },
+  "https://admin.besmartdelivery.mx/riders/new": {
+    "url": "https://admin.besmartdelivery.mx/riders/new",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:23:07.658230",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Create",
+        "tipo": "button",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "name",
+        "id": "",
+        "placeholder": "Name"
+      },
+      {
+        "tipo": "text",
+        "nombre": "username",
+        "id": "",
+        "placeholder": "Username"
+      },
+      {
+        "tipo": "text",
+        "nombre": "password",
+        "id": "",
+        "placeholder": "Password"
+      },
+      {
+        "tipo": "text",
+        "nombre": "email",
+        "id": "",
+        "placeholder": "E-mail"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/new",
+        "texto": "New rider"
+      }
+    ],
+    "forms": [
+      {
+        "action": "",
+        "method": "get",
+        "id": ""
+      }
+    ],
+    "tables": []
+  },
+  "https://admin.besmartdelivery.mx/riders/breaks": {
+    "url": "https://admin.besmartdelivery.mx/riders/breaks",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:23:13.104677",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "query",
+        "id": "query",
+        "placeholder": "Type here for searching"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/breaks",
+        "texto": "Breaks"
+      }
+    ],
+    "forms": [],
+    "tables": [
+      {
+        "id": "",
+        "class": [
+          "responsive-table"
+        ],
+        "rows": 1
+      }
+    ]
+  },
+  "https://admin.besmartdelivery.mx/riders/workshifts": {
+    "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+    "titulo": "Dashboard | Besmartdelivery.mx",
+    "timestamp": "2025-07-25T19:37:21.930942",
+    "botones": [
+      {
+        "texto": "Vendors",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Customers",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "Riders",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "Español",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "manus",
+        "tipo": "",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      },
+      {
+        "texto": "",
+        "tipo": "button",
+        "id": ""
+      }
+    ],
+    "inputs": [
+      {
+        "tipo": "text",
+        "nombre": "query",
+        "id": "query",
+        "placeholder": "Type here for search"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/modifications",
+        "texto": "Modifications"
+      },
+      {
+        "url": "https://admin.besmartdelivery.mx/riders/workshifts",
+        "texto": "Workshifts"
+      }
+    ],
+    "forms": [],
+    "tables": [
+      {
+        "id": "",
+        "class": [
+          "responsive-table"
+        ],
+        "rows": 4
+      }
+    ]
+  }
+}

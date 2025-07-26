@@ -1,0 +1,178 @@
+2025-07-25 20:15:55,781 - INFO - 🔧 Configuración cargada:
+2025-07-25 20:15:55,784 - INFO -    Usuario: federico
+2025-07-25 20:15:55,785 - INFO -    URL: https://admin.besmartdelivery.mx/
+2025-07-25 20:15:55,785 - INFO -    Base de datos: ep-long-wave-adza01b9-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+2025-07-25 20:15:55,785 - INFO - 🤖 Iniciando SmartAgent Enhanced - Sistema Completo Integrado
+2025-07-25 20:15:56,279 - INFO - ✅ Conexión a PostgreSQL establecida
+2025-07-25 20:15:57,279 - INFO - ====== WebDriver manager ======
+2025-07-25 20:16:02,323 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 20:16:02,587 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 20:16:02,756 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 20:16:04,987 - INFO - ✅ ChromeDriver automático instalado
+2025-07-25 20:16:05,023 - INFO - 🔐 Intentando login con usuario: federico
+2025-07-25 20:16:11,558 - INFO - ✅ Campo de usuario encontrado con: name = uid
+2025-07-25 20:16:11,589 - INFO - ✅ Campo de contraseña encontrado con: name = password
+2025-07-25 20:16:11,754 - ERROR - ❌ No se pudo encontrar el botón de login
+2025-07-25 20:16:11,754 - ERROR - ❌ No se pudo iniciar sesión
+2025-07-25 20:16:14,597 - INFO - 🔌 Conexión a PostgreSQL cerrada
+2025-07-25 20:16:14,597 - INFO - 🧹 Limpieza completada
+2025-07-25 20:19:22,252 - INFO - 🔧 Configuración cargada:
+2025-07-25 20:19:22,252 - INFO -    Usuario: federico
+2025-07-25 20:19:22,253 - INFO -    URL: https://admin.besmartdelivery.mx/
+2025-07-25 20:19:22,253 - INFO -    Base de datos: ep-long-wave-adza01b9-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+2025-07-25 20:19:22,253 - INFO - 🤖 Iniciando SmartAgent Enhanced - Sistema Completo Integrado
+2025-07-25 20:19:22,649 - INFO - ✅ Conexión a PostgreSQL establecida
+2025-07-25 20:19:23,384 - INFO - ====== WebDriver manager ======
+2025-07-25 20:19:28,157 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 20:19:28,332 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 20:19:28,531 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 20:19:30,388 - INFO - ✅ ChromeDriver automático instalado
+2025-07-25 20:19:30,394 - INFO - 🔐 Intentando login con usuario: federico
+2025-07-25 20:19:37,117 - INFO - ✅ Campo de usuario encontrado con: name = uid
+2025-07-25 20:19:37,147 - INFO - ✅ Campo de contraseña encontrado con: name = password
+2025-07-25 20:19:37,402 - INFO - ✅ Botón de login encontrado con: css selector = button.button.login.main
+2025-07-25 20:19:45,457 - INFO - ✅ Login exitoso
+2025-07-25 20:19:45,458 - INFO - 🚀 Iniciando exploración completa...
+2025-07-25 20:19:45,459 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/
+2025-07-25 20:19:51,550 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/
+2025-07-25 20:19:54,314 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/tasks
+2025-07-25 20:20:00,281 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/tasks
+2025-07-25 20:20:01,308 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/orders
+2025-07-25 20:20:07,358 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/orders
+2025-07-25 20:20:09,980 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 20:20:15,793 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 20:20:16,877 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors
+2025-07-25 20:20:23,046 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/vendors
+2025-07-25 20:20:23,394 - ERROR - ❌ Error creando pedido de ejemplo: insert or update on table "payment_transactions" violates foreign key constraint "payment_transactions_payment_method_id_fkey"
+DETAIL:  Key (payment_method_id)=(1) is not present in table "payment_methods".
+
+2025-07-25 20:20:25,813 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors/new
+2025-07-25 20:20:32,492 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/vendors/new
+2025-07-25 20:20:34,620 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors/invoices
+2025-07-25 20:20:40,581 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/vendors/invoices
+2025-07-25 20:20:41,942 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors/book-entries
+2025-07-25 20:20:47,860 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/vendors/book-entries
+2025-07-25 20:20:50,043 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers
+2025-07-25 20:20:56,138 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/customers
+2025-07-25 20:20:59,023 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 20:21:05,618 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 20:21:05,956 - ERROR - ❌ Error creando pedido de ejemplo: insert or update on table "payment_transactions" violates foreign key constraint "payment_transactions_payment_method_id_fkey"
+DETAIL:  Key (payment_method_id)=(1) is not present in table "payment_methods".
+
+2025-07-25 20:21:08,184 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 20:21:14,410 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 20:21:15,740 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 20:21:21,863 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 20:21:22,952 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders
+2025-07-25 20:21:29,360 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/riders
+2025-07-25 20:21:31,286 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/new
+2025-07-25 20:21:37,520 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/riders/new
+2025-07-25 20:21:38,930 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 20:21:44,811 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 20:21:45,156 - ERROR - ❌ Error creando pedido de ejemplo: insert or update on table "payment_transactions" violates foreign key constraint "payment_transactions_payment_method_id_fkey"
+DETAIL:  Key (payment_method_id)=(1) is not present in table "payment_methods".
+
+2025-07-25 20:21:47,436 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 20:21:53,988 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 20:21:55,830 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 20:22:02,003 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 20:22:04,924 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/payouts
+2025-07-25 20:22:13,947 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/riders/payouts
+2025-07-25 20:22:15,039 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/actas
+2025-07-25 20:22:20,997 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/actas
+2025-07-25 20:22:23,398 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/admins
+2025-07-25 20:22:29,469 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/admins
+2025-07-25 20:22:29,819 - ERROR - ❌ Error creando pedido de ejemplo: insert or update on table "payment_transactions" violates foreign key constraint "payment_transactions_payment_method_id_fkey"
+DETAIL:  Key (payment_method_id)=(1) is not present in table "payment_methods".
+
+2025-07-25 20:22:32,318 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/admins/new
+2025-07-25 20:22:38,551 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/admins/new
+2025-07-25 20:22:40,479 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/pages
+2025-07-25 20:22:47,688 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/pages
+2025-07-25 20:22:49,784 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/pages/new
+2025-07-25 20:22:56,058 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/pages/new
+2025-07-25 20:22:57,692 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/announcements
+2025-07-25 20:23:04,101 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/announcements
+2025-07-25 20:23:06,348 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/announcements/new
+2025-07-25 20:23:12,835 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/announcements/new
+2025-07-25 20:23:13,183 - ERROR - ❌ Error creando pedido de ejemplo: insert or update on table "payment_transactions" violates foreign key constraint "payment_transactions_payment_method_id_fkey"
+DETAIL:  Key (payment_method_id)=(1) is not present in table "payment_methods".
+
+2025-07-25 20:23:14,778 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/faqs
+2025-07-25 20:23:20,538 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/faqs
+2025-07-25 20:23:22,483 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/faqs/new
+2025-07-25 20:23:28,825 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/faqs/new
+2025-07-25 20:23:30,592 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/changelogs
+2025-07-25 20:23:36,528 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/changelogs
+2025-07-25 20:23:37,603 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/changelogs/new
+2025-07-25 20:23:44,031 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/changelogs/new
+2025-07-25 20:23:45,600 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration
+2025-07-25 20:23:52,422 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/configuration
+2025-07-25 20:23:52,757 - ERROR - ❌ Error creando pedido de ejemplo: insert or update on table "payment_transactions" violates foreign key constraint "payment_transactions_payment_method_id_fkey"
+DETAIL:  Key (payment_method_id)=(1) is not present in table "payment_methods".
+
+2025-07-25 20:23:54,403 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/audit
+2025-07-25 20:24:00,481 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/audit
+2025-07-25 20:24:01,986 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/import
+2025-07-25 20:24:08,044 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/configuration/import
+2025-07-25 20:24:09,868 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/pages/new/en
+2025-07-25 20:24:16,621 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/pages/new/en
+2025-07-25 20:24:19,564 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/pages/new/es
+2025-07-25 20:24:26,230 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/pages/new/es
+2025-07-25 20:24:28,690 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/announcements/new/en
+2025-07-25 20:24:35,277 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/announcements/new/en
+2025-07-25 20:24:35,616 - ERROR - ❌ Error creando pedido de ejemplo: insert or update on table "payment_transactions" violates foreign key constraint "payment_transactions_payment_method_id_fkey"
+DETAIL:  Key (payment_method_id)=(1) is not present in table "payment_methods".
+
+2025-07-25 20:24:38,470 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/announcements/new/es
+2025-07-25 20:24:45,051 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/announcements/new/es
+2025-07-25 20:24:47,333 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/faqs/new/en
+2025-07-25 20:24:53,952 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/faqs/new/en
+2025-07-25 20:24:55,001 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/faqs/new/es
+2025-07-25 20:25:01,611 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/faqs/new/es
+2025-07-25 20:25:03,514 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/alert-bar
+2025-07-25 20:25:10,068 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/configuration/alert-bar
+2025-07-25 20:25:12,180 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/info-modal
+2025-07-25 20:25:18,736 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/configuration/info-modal
+2025-07-25 20:25:19,077 - ERROR - ❌ Error creando pedido de ejemplo: insert or update on table "payment_transactions" violates foreign key constraint "payment_transactions_payment_method_id_fkey"
+DETAIL:  Key (payment_method_id)=(1) is not present in table "payment_methods".
+
+2025-07-25 20:25:20,760 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/payment
+2025-07-25 20:25:27,419 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/configuration/payment
+2025-07-25 20:25:30,031 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/delivery
+2025-07-25 20:25:38,431 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/configuration/delivery
+2025-07-25 20:25:41,156 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/settings
+2025-07-25 20:25:50,197 - INFO - ✅ Datos de página guardados: https://admin.besmartdelivery.mx/configuration/settings
+2025-07-25 20:25:52,045 - INFO - 🔍 Explorando: https://maps.google.com/maps?ll=20.501279,-87.228575&z=12&t=m&hl=es-ES&gl=US&mapclient=apiv3
+2025-07-25 20:26:01,560 - INFO - ✅ Datos de página guardados: https://maps.google.com/maps?ll=20.501279,-87.228575&z=12&t=m&hl=es-ES&gl=US&mapclient=apiv3
+2025-07-25 20:26:02,651 - INFO - 🔍 Explorando: https://www.google.com/intl/es-ES_US/help/terms_maps.html
+2025-07-25 20:26:08,211 - INFO - ✅ Datos de página guardados: https://www.google.com/intl/es-ES_US/help/terms_maps.html
+2025-07-25 20:26:08,549 - ERROR - ❌ Error creando pedido de ejemplo: insert or update on table "payment_transactions" violates foreign key constraint "payment_transactions_payment_method_id_fkey"
+DETAIL:  Key (payment_method_id)=(1) is not present in table "payment_methods".
+
+2025-07-25 20:26:10,260 - INFO - 🔍 Explorando: https://www.google.com/maps/@20.501279,-87.228575,12z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+2025-07-25 20:26:18,202 - INFO - ✅ Datos de página guardados: https://www.google.com/maps/@20.501279,-87.228575,12z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+2025-07-25 20:26:20,986 - INFO - 🔍 Explorando: https://www.google.com.mx/intl/es/about/products?tab=lh
+2025-07-25 20:26:36,330 - INFO - ✅ Datos de página guardados: https://www.google.com.mx/intl/es/about/products?tab=lh
+2025-07-25 20:26:38,094 - INFO - 🔍 Explorando: https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%3Fll%3D20.501279%2C-87.228575%26z%3D12%26t%3Dm%26hl%3Des-ES%26gl%3DUS%26mapclient%3Dapiv3&service=local&ec=GAZAcQ
+2025-07-25 20:26:42,820 - INFO - ✅ Datos de página guardados: https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%3Fll%3D20.501279%2C-87.228575%26z%3D12%26t%3Dm%26hl%3Des-ES%26gl%3DUS%26mapclient%3Dapiv3&service=local&ec=GAZAcQ
+2025-07-25 20:26:45,121 - INFO - 🔍 Explorando: https://support.google.com/maps/?hl=es&authuser=0&p=no_javascript
+2025-07-25 20:26:52,516 - INFO - ✅ Datos de página guardados: https://support.google.com/maps/?hl=es&authuser=0&p=no_javascript
+2025-07-25 20:26:54,422 - INFO - 🔍 Explorando: https://www.google.com/intl/help/terms_maps/
+2025-07-25 20:26:58,015 - INFO - ✅ Datos de página guardados: https://www.google.com/intl/help/terms_maps/
+2025-07-25 20:26:58,364 - ERROR - ❌ Error creando pedido de ejemplo: insert or update on table "payment_transactions" violates foreign key constraint "payment_transactions_payment_method_id_fkey"
+DETAIL:  Key (payment_method_id)=(1) is not present in table "payment_methods".
+
+2025-07-25 20:27:01,061 - INFO - ✅ Reporte de analytics creado para 2025-07-25
+2025-07-25 20:27:01,062 - INFO - ✅ Exploración completada
+2025-07-25 20:27:01,532 - INFO - 📊 ESTADÍSTICAS FINALES:
+2025-07-25 20:27:01,532 - INFO -    Páginas exploradas: 50
+2025-07-25 20:27:01,533 - INFO -    Total botones: 821
+2025-07-25 20:27:01,534 - INFO -    Total inputs: 125
+2025-07-25 20:27:01,534 - INFO -    Total pedidos: 15
+2025-07-25 20:27:01,534 - INFO -    Total clientes: 0
+2025-07-25 20:27:01,535 - INFO -    Total repartidores: 5
+2025-07-25 20:27:01,535 - INFO -    Total productos: 0
+2025-07-25 20:27:01,536 - INFO -    Total transacciones: 0
+2025-07-25 20:27:04,526 - INFO - 🔌 Conexión a PostgreSQL cerrada
+2025-07-25 20:27:04,528 - INFO - 🧹 Limpieza completada
