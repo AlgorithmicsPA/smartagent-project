@@ -1,0 +1,253 @@
+2025-07-25 19:14:51,509 - INFO - ====== WebDriver manager ======
+2025-07-25 19:14:58,064 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:15:00,005 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:15:00,305 - INFO - There is no [win64] chromedriver "138.0.7204.168" for browser google-chrome "138.0.7204" in cache
+2025-07-25 19:15:00,305 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:15:00,739 - INFO - WebDriver version 138.0.7204.168 selected
+2025-07-25 19:15:00,747 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.168/win32/chromedriver-win32.zip
+2025-07-25 19:15:00,749 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.168/win32/chromedriver-win32.zip
+2025-07-25 19:15:01,118 - INFO - Driver downloading response is 200
+2025-07-25 19:15:02,708 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:15:03,944 - INFO - Driver has been saved in cache [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168]
+2025-07-25 19:15:28,224 - INFO - 🤖 Iniciando SmartAgent para BeSmart Delivery Admin Panel
+2025-07-25 19:15:28,987 - INFO - ====== WebDriver manager ======
+2025-07-25 19:15:34,260 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:15:34,475 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:15:34,695 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 19:15:34,700 - INFO - ✅ ChromeDriver automático instalado
+2025-07-25 19:15:37,609 - ERROR - ❌ Error configurando navegador: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x322123]
+	(No symbol) [0x0x3558b8]
+	(No symbol) [0x0x3511a9]
+	(No symbol) [0x0x39ae77]
+	(No symbol) [0x0x39a76a]
+	(No symbol) [0x0x38f1b6]
+	(No symbol) [0x0x35e7a2]
+	(No symbol) [0x0x35f644]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	GetHandleVerifier [0x0x4e9a38+94920]
+	GetHandleVerifier [0x0x4e9bc2+95314]
+	GetHandleVerifier [0x0x4d4d0a+9626]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 19:16:22,130 - INFO - 🤖 Iniciando SmartAgent para BeSmart Delivery Admin Panel
+2025-07-25 19:16:22,608 - INFO - ====== WebDriver manager ======
+2025-07-25 19:16:26,981 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:16:27,152 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:16:27,333 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 19:16:27,334 - INFO - ✅ ChromeDriver automático instalado
+2025-07-25 19:16:30,079 - ERROR - ❌ Error configurando navegador: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x322123]
+	(No symbol) [0x0x355da5]
+	(No symbol) [0x0x3511a9]
+	(No symbol) [0x0x39ae77]
+	(No symbol) [0x0x39a76a]
+	(No symbol) [0x0x38f1b6]
+	(No symbol) [0x0x35e7a2]
+	(No symbol) [0x0x35f644]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	GetHandleVerifier [0x0x4e9a38+94920]
+	GetHandleVerifier [0x0x4e9bc2+95314]
+	GetHandleVerifier [0x0x4d4d0a+9626]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 19:16:46,603 - INFO - 🤖 Iniciando SmartAgent para BeSmart Delivery Admin Panel
+2025-07-25 19:16:47,262 - INFO - ====== WebDriver manager ======
+2025-07-25 19:16:51,975 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:16:52,368 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:16:52,551 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 19:16:52,552 - INFO - ✅ ChromeDriver automático instalado
+2025-07-25 19:16:54,052 - INFO - ✅ Navegador configurado correctamente
+2025-07-25 19:16:54,053 - INFO - 🔐 Iniciando proceso de login...
+2025-07-25 19:17:11,705 - ERROR - ❌ Error durante el login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x4e1af3+62339]
+	GetHandleVerifier [0x0x4e1b34+62404]
+	(No symbol) [0x0x322123]
+	(No symbol) [0x0x36a86e]
+	(No symbol) [0x0x36ac0b]
+	(No symbol) [0x0x3b2f72]
+	(No symbol) [0x0x38f404]
+	(No symbol) [0x0x3b07a3]
+	(No symbol) [0x0x38f1b6]
+	(No symbol) [0x0x35e7a2]
+	(No symbol) [0x0x35f644]
+	GetHandleVerifier [0x0x756683+2637587]
+	GetHandleVerifier [0x0x751a8a+2618138]
+	GetHandleVerifier [0x0x50856a+220666]
+	GetHandleVerifier [0x0x4f8998+156200]
+	GetHandleVerifier [0x0x4ff12d+182717]
+	GetHandleVerifier [0x0x4e9a38+94920]
+	GetHandleVerifier [0x0x4e9bc2+95314]
+	GetHandleVerifier [0x0x4d4d0a+9626]
+	BaseThreadInitThunk [0x0x75795d49+25]
+	RtlInitializeExceptionChain [0x0x7709d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7709d021+561]
+
+2025-07-25 19:17:11,706 - ERROR - ❌ No se pudo realizar el login. Deteniendo exploración.
+2025-07-25 19:17:14,073 - INFO - ✅ Navegador cerrado correctamente.
+2025-07-25 19:17:42,317 - INFO - 🤖 Iniciando SmartAgent para BeSmart Delivery Admin Panel
+2025-07-25 19:17:42,816 - INFO - ====== WebDriver manager ======
+2025-07-25 19:17:47,150 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:17:47,316 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:17:47,484 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 19:17:47,485 - INFO - ✅ ChromeDriver automático instalado
+2025-07-25 19:17:49,027 - INFO - ✅ Navegador configurado correctamente
+2025-07-25 19:17:49,029 - INFO - 🔐 Iniciando proceso de login...
+2025-07-25 19:17:58,001 - INFO - 📸 Screenshot guardado como login_page.png
+2025-07-25 19:17:58,012 - INFO - 📄 HTML guardado como login_page.html
+2025-07-25 19:17:58,140 - INFO - ✅ Campo username encontrado con: css selector=input[type='text']
+2025-07-25 19:17:58,155 - INFO - ✅ Campo password encontrado con: name=password
+2025-07-25 19:17:58,614 - INFO - ✅ Credenciales ingresadas
+2025-07-25 19:17:58,761 - INFO - ✅ Botón de login encontrado con: css selector=button
+2025-07-25 19:18:02,393 - INFO - ✅ Botón de login clickeado
+2025-07-25 19:18:07,407 - INFO - 📍 URL actual después del login: https://admin.besmartdelivery.mx/
+2025-07-25 19:18:07,407 - INFO - ✅ Login exitoso
+2025-07-25 19:18:07,407 - INFO - 🚀 Iniciando exploración del admin panel...
+2025-07-25 19:18:07,408 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/
+2025-07-25 19:18:10,965 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/
+2025-07-25 19:18:12,322 - INFO - 💾 Guardado automático realizado - 1 páginas exploradas
+2025-07-25 19:18:12,967 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/tasks
+2025-07-25 19:18:16,181 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/tasks
+2025-07-25 19:18:18,182 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/orders
+2025-07-25 19:18:21,571 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/orders
+2025-07-25 19:18:23,577 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 19:18:27,042 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 19:18:29,044 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors
+2025-07-25 19:18:32,599 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/vendors
+2025-07-25 19:18:34,600 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers
+2025-07-25 19:18:37,881 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/customers
+2025-07-25 19:18:39,883 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 19:18:42,334 - INFO - 💾 Guardado automático realizado - 6 páginas exploradas
+2025-07-25 19:18:43,456 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 19:18:45,457 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 19:18:49,022 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 19:18:51,023 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 19:18:54,613 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 19:18:56,615 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders
+2025-07-25 19:19:00,146 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/riders
+2025-07-25 19:19:02,147 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/new
+2025-07-25 19:19:05,435 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/riders/new
+2025-07-25 19:19:07,437 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 19:19:10,972 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 19:19:12,348 - INFO - 💾 Guardado automático realizado - 12 páginas exploradas
+2025-07-25 19:19:12,973 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:19:16,543 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:19:18,544 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:19:22,115 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:19:26,612 - INFO - ✅ Navegador cerrado correctamente.
+2025-07-25 19:21:46,983 - INFO - 🤖 Iniciando SmartAgent para BeSmart Delivery Admin Panel
+2025-07-25 19:21:47,694 - INFO - ====== WebDriver manager ======
+2025-07-25 19:21:52,262 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:21:52,443 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:21:52,625 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 19:21:52,627 - INFO - ✅ ChromeDriver automático instalado
+2025-07-25 19:21:54,259 - INFO - ✅ Navegador configurado correctamente
+2025-07-25 19:21:54,259 - INFO - 🔐 Iniciando proceso de login...
+2025-07-25 19:22:03,135 - INFO - 📸 Screenshot guardado como login_page.png
+2025-07-25 19:22:03,145 - INFO - 📄 HTML guardado como login_page.html
+2025-07-25 19:22:03,204 - INFO - ✅ Campo username encontrado con: name=uid
+2025-07-25 19:22:03,236 - INFO - ✅ Campo password encontrado con: name=password
+2025-07-25 19:22:03,984 - INFO - ✅ Credenciales ingresadas
+2025-07-25 19:22:04,190 - INFO - ✅ Botón de login encontrado con: css selector=button
+2025-07-25 19:22:04,388 - INFO - ✅ Botón de login clickeado
+2025-07-25 19:22:09,408 - INFO - 📍 URL actual después del login: https://admin.besmartdelivery.mx/
+2025-07-25 19:22:09,409 - INFO - ✅ Login exitoso
+2025-07-25 19:22:09,410 - INFO - 🚀 Iniciando exploración del admin panel...
+2025-07-25 19:22:09,410 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/
+2025-07-25 19:22:12,972 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/
+2025-07-25 19:22:14,974 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/tasks
+2025-07-25 19:22:16,995 - INFO - 💾 Guardado automático realizado - 1 páginas exploradas
+2025-07-25 19:22:18,526 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/tasks
+2025-07-25 19:22:20,528 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/orders
+2025-07-25 19:22:24,100 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/orders
+2025-07-25 19:22:26,101 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 19:22:29,629 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 19:22:31,630 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors
+2025-07-25 19:22:35,238 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/vendors
+2025-07-25 19:22:37,239 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers
+2025-07-25 19:22:40,809 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/customers
+2025-07-25 19:22:42,812 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 19:22:46,104 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 19:22:47,005 - INFO - 💾 Guardado automático realizado - 7 páginas exploradas
+2025-07-25 19:22:48,106 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 19:22:51,568 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 19:22:53,569 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 19:22:57,034 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 19:22:59,035 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders
+2025-07-25 19:23:02,495 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/riders
+2025-07-25 19:23:04,495 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/new
+2025-07-25 19:23:07,756 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/riders/new
+2025-07-25 19:23:09,756 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 19:23:13,280 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 19:23:15,283 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:23:17,025 - INFO - 💾 Guardado automático realizado - 12 páginas exploradas
+2025-07-25 19:23:18,824 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:23:20,830 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:23:24,381 - INFO - ✅ Datos extraídos de https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:23:28,893 - INFO - ✅ Navegador cerrado correctamente.
+2025-07-25 19:36:54,952 - INFO - 🤖 Iniciando SmartAgent para BeSmart Delivery Admin Panel
+2025-07-25 19:36:54,957 - INFO - ✅ Datos previos cargados: 12 páginas
+2025-07-25 19:36:54,958 - INFO - ✅ Cola reconstruida: 3 URLs pendientes
+2025-07-25 19:36:54,959 - INFO - 🔄 Continuando exploración desde punto anterior
+2025-07-25 19:36:55,982 - INFO - ====== WebDriver manager ======
+2025-07-25 19:37:00,821 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:37:01,004 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:37:01,198 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 19:37:01,202 - INFO - ✅ ChromeDriver automático instalado
+2025-07-25 19:37:02,889 - INFO - ✅ Navegador configurado correctamente
+2025-07-25 19:37:03,393 - INFO - ✅ Conexión a PostgreSQL establecida
+2025-07-25 19:37:03,394 - INFO - 🔐 Iniciando proceso de login...
+2025-07-25 19:37:05,296 - INFO - ✅ Conexión a PostgreSQL establecida
+2025-07-25 19:37:05,398 - INFO - 💾 Guardado automático realizado - 12 páginas exploradas
+2025-07-25 19:37:05,406 - INFO - 📊 DB Stats - Páginas: 12, Botones: 1003, Inputs: 895
+2025-07-25 19:37:05,408 - INFO - 🔌 Conexión a PostgreSQL cerrada
+2025-07-25 19:37:12,105 - INFO - 📸 Screenshot guardado como login_page.png
+2025-07-25 19:37:12,130 - INFO - 📄 HTML guardado como login_page.html
+2025-07-25 19:37:12,167 - INFO - ✅ Campo username encontrado con: name=uid
+2025-07-25 19:37:12,207 - INFO - ✅ Campo password encontrado con: name=password
+2025-07-25 19:37:12,900 - INFO - ✅ Credenciales ingresadas
+2025-07-25 19:37:13,254 - INFO - ✅ Botón de login encontrado con: css selector=button
+2025-07-25 19:37:13,389 - INFO - ✅ Botón de login clickeado
+2025-07-25 19:37:15,933 - INFO - ✅ Conexión a PostgreSQL establecida
+2025-07-25 19:37:16,033 - INFO - 💾 Guardado automático realizado - 12 páginas exploradas
+2025-07-25 19:37:16,034 - INFO - 📊 DB Stats - Páginas: 12, Botones: 1003, Inputs: 895
+2025-07-25 19:37:16,037 - INFO - 🔌 Conexión a PostgreSQL cerrada
+2025-07-25 19:37:18,411 - INFO - 📍 URL actual después del login: https://admin.besmartdelivery.mx/
+2025-07-25 19:37:18,412 - INFO - ✅ Login exitoso
+2025-07-25 19:37:18,412 - INFO - 🚀 Iniciando exploración del admin panel...
+2025-07-25 19:37:18,413 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:37:23,184 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:37:23,218 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:37:25,228 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:37:26,517 - INFO - ✅ Conexión a PostgreSQL establecida
+2025-07-25 19:37:26,619 - INFO - 💾 Guardado automático realizado - 13 páginas exploradas
+2025-07-25 19:37:26,620 - INFO - 📊 DB Stats - Páginas: 13, Botones: 1030, Inputs: 922
+2025-07-25 19:37:26,622 - INFO - 🔌 Conexión a PostgreSQL cerrada
+2025-07-25 19:37:29,702 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:37:29,703 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:37:34,084 - INFO - ✅ Navegador cerrado correctamente.
+2025-07-25 19:37:34,086 - INFO - 🔌 Conexión a PostgreSQL cerrada
+2025-07-25 19:37:34,087 - INFO - ✅ Conexión a base de datos cerrada.
+2025-07-25 19:37:34,115 - INFO - 💾 Datos finales guardados - 14 páginas exploradas
+2025-07-25 19:37:34,120 - INFO - ✅ SmartAgent finalizado

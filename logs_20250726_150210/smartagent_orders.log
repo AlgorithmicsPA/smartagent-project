@@ -1,0 +1,231 @@
+2025-07-25 19:42:12,692 - INFO - 🤖 Iniciando SmartAgent Orders - Sistema Integrado
+2025-07-25 19:42:13,578 - INFO - ====== WebDriver manager ======
+2025-07-25 19:42:18,249 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:42:18,446 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:42:18,654 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 19:42:18,657 - INFO - ✅ ChromeDriver automático instalado
+2025-07-25 19:42:20,122 - INFO - ✅ Navegador configurado correctamente
+2025-07-25 19:42:20,688 - INFO - ✅ Conexión a PostgreSQL establecida
+2025-07-25 19:42:20,790 - INFO - 📊 Estado inicial - Pedidos: 5, Pendientes: 5
+2025-07-25 19:42:20,790 - INFO - 🔐 Iniciando proceso de login...
+2025-07-25 19:42:29,161 - INFO - ✅ Campo username encontrado con: name=uid
+2025-07-25 19:42:29,186 - INFO - ✅ Campo password encontrado con: name=password
+2025-07-25 19:42:29,646 - INFO - ✅ Credenciales ingresadas
+2025-07-25 19:42:29,735 - INFO - ✅ Botón de login encontrado con: css selector=button
+2025-07-25 19:42:29,874 - INFO - ✅ Botón de login clickeado
+2025-07-25 19:42:34,902 - INFO - 📍 URL actual después del login: https://admin.besmartdelivery.mx/
+2025-07-25 19:42:34,904 - INFO - ✅ Login exitoso
+2025-07-25 19:42:34,905 - INFO - 🚀 Iniciando exploración del admin panel...
+2025-07-25 19:42:34,906 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/
+2025-07-25 19:42:39,852 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/
+2025-07-25 19:42:39,853 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/
+2025-07-25 19:42:41,858 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/tasks
+2025-07-25 19:42:46,784 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/tasks
+2025-07-25 19:42:46,789 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/tasks
+2025-07-25 19:42:48,791 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/orders
+2025-07-25 19:42:53,718 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/orders
+2025-07-25 19:42:53,718 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/orders
+2025-07-25 19:42:55,719 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 19:43:00,329 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 19:43:00,330 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 19:43:02,332 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors
+2025-07-25 19:43:07,329 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/vendors
+2025-07-25 19:43:07,330 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/vendors
+2025-07-25 19:43:09,331 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers
+2025-07-25 19:43:14,133 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/customers
+2025-07-25 19:43:14,135 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/customers
+2025-07-25 19:43:14,419 - INFO - 📦 Pedido de muestra creado: ORD-20250725-7926 (ID: 6)
+2025-07-25 19:43:16,420 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 19:43:21,704 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 19:43:21,705 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 19:43:23,707 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 19:43:28,351 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 19:43:28,352 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 19:43:30,353 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 19:43:34,719 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 19:43:34,721 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 19:43:36,722 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders
+2025-07-25 19:43:41,720 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders
+2025-07-25 19:43:41,722 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders
+2025-07-25 19:43:43,724 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/new
+2025-07-25 19:43:48,554 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/new
+2025-07-25 19:43:48,559 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/new
+2025-07-25 19:43:50,561 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 19:43:55,137 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 19:43:55,141 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 19:43:57,143 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:44:01,671 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:44:01,671 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:44:01,955 - INFO - 📦 Pedido de muestra creado: ORD-20250725-2622 (ID: 7)
+2025-07-25 19:44:03,957 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:44:08,532 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:44:08,532 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:44:14,177 - INFO - ✅ Navegador cerrado correctamente.
+2025-07-25 19:44:14,179 - INFO - 🔌 Conexión a PostgreSQL cerrada
+2025-07-25 19:44:14,180 - INFO - ✅ Conexión a base de datos cerrada.
+2025-07-25 19:44:14,180 - ERROR - ❌ Error obteniendo resumen de pedidos: cursor already closed
+2025-07-25 19:44:14,181 - INFO - ✅ SmartAgent Orders finalizado
+2025-07-25 19:55:23,988 - INFO - 🔧 Configuración cargada:
+2025-07-25 19:55:23,989 - INFO -    Usuario: federico
+2025-07-25 19:55:23,990 - INFO -    URL: https://admin.besmartdelivery.mx/
+2025-07-25 19:55:23,990 - INFO -    Base de datos: ep-long-wave-adza01b9-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+2025-07-25 19:55:23,991 - INFO - 🤖 Iniciando SmartAgent Orders - Sistema Integrado
+2025-07-25 19:55:24,825 - INFO - ====== WebDriver manager ======
+2025-07-25 19:55:29,239 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:55:29,418 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-25 19:55:29,590 - INFO - Driver [C:\Users\ALGORITHMICS 05\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-25 19:55:29,591 - INFO - ✅ ChromeDriver automático instalado
+2025-07-25 19:55:31,456 - INFO - ✅ Navegador configurado correctamente
+2025-07-25 19:55:31,918 - INFO - ✅ Conexión a PostgreSQL establecida
+2025-07-25 19:55:32,027 - INFO - 📊 Estado inicial - Pedidos: 7, Pendientes: 7
+2025-07-25 19:55:32,028 - INFO - 🔐 Iniciando proceso de login...
+2025-07-25 19:55:39,567 - INFO - ✅ Campo username encontrado con: name=uid
+2025-07-25 19:55:39,599 - INFO - ✅ Campo password encontrado con: name=password
+2025-07-25 19:55:40,240 - INFO - ✅ Credenciales ingresadas
+2025-07-25 19:55:40,330 - INFO - ✅ Botón de login encontrado con: css selector=button
+2025-07-25 19:55:40,463 - INFO - ✅ Botón de login clickeado
+2025-07-25 19:55:45,485 - INFO - 📍 URL actual después del login: https://admin.besmartdelivery.mx/
+2025-07-25 19:55:45,486 - INFO - ✅ Login exitoso
+2025-07-25 19:55:45,486 - INFO - 🚀 Iniciando exploración del admin panel...
+2025-07-25 19:55:45,487 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/
+2025-07-25 19:55:54,491 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/
+2025-07-25 19:55:54,492 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/
+2025-07-25 19:55:54,787 - INFO - 📦 Pedido de muestra creado: ORD-20250725-2078 (ID: 8)
+2025-07-25 19:55:56,788 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/tasks
+2025-07-25 19:56:02,996 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/tasks
+2025-07-25 19:56:02,998 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/tasks
+2025-07-25 19:56:05,000 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/orders
+2025-07-25 19:56:11,405 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/orders
+2025-07-25 19:56:11,406 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/orders
+2025-07-25 19:56:13,407 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 19:56:19,572 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 19:56:19,573 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/purchase-quotes
+2025-07-25 19:56:19,868 - INFO - 📦 Pedido de muestra creado: ORD-20250725-7516 (ID: 9)
+2025-07-25 19:56:21,873 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors
+2025-07-25 19:56:27,926 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/vendors
+2025-07-25 19:56:27,929 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/vendors
+2025-07-25 19:56:28,221 - INFO - 📦 Pedido de muestra creado: ORD-20250725-5494 (ID: 10)
+2025-07-25 19:56:30,222 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors/new
+2025-07-25 19:56:36,836 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/vendors/new
+2025-07-25 19:56:36,836 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/vendors/new
+2025-07-25 19:56:38,838 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors/invoices
+2025-07-25 19:56:44,544 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/vendors/invoices
+2025-07-25 19:56:44,546 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/vendors/invoices
+2025-07-25 19:56:46,547 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/vendors/book-entries
+2025-07-25 19:56:52,711 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/vendors/book-entries
+2025-07-25 19:56:52,736 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/vendors/book-entries
+2025-07-25 19:56:54,737 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers
+2025-07-25 19:57:00,693 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/customers
+2025-07-25 19:57:00,696 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/customers
+2025-07-25 19:57:02,697 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 19:57:09,031 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 19:57:09,033 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/customers/deleted
+2025-07-25 19:57:11,034 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 19:57:20,024 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 19:57:20,027 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/customers/invoices
+2025-07-25 19:57:22,029 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 19:57:28,401 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 19:57:28,403 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/customers/book-entries
+2025-07-25 19:57:30,405 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders
+2025-07-25 19:57:36,845 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders
+2025-07-25 19:57:36,847 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders
+2025-07-25 19:57:38,849 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/new
+2025-07-25 19:57:44,866 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/new
+2025-07-25 19:57:44,867 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/new
+2025-07-25 19:57:46,869 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 19:57:52,651 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 19:57:52,652 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/breaks
+2025-07-25 19:57:52,946 - INFO - 📦 Pedido de muestra creado: ORD-20250725-3171 (ID: 11)
+2025-07-25 19:57:54,993 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:58:00,817 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:58:00,818 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/workshifts
+2025-07-25 19:58:02,821 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:58:08,383 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:58:08,384 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/modifications
+2025-07-25 19:58:10,386 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/riders/payouts
+2025-07-25 19:58:15,665 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/riders/payouts
+2025-07-25 19:58:15,668 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/riders/payouts
+2025-07-25 19:58:17,670 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/actas
+2025-07-25 19:58:23,087 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/actas
+2025-07-25 19:58:23,091 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/actas
+2025-07-25 19:58:25,092 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/admins
+2025-07-25 19:58:30,887 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/admins
+2025-07-25 19:58:30,889 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/admins
+2025-07-25 19:58:32,890 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/admins/new
+2025-07-25 19:58:38,509 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/admins/new
+2025-07-25 19:58:38,510 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/admins/new
+2025-07-25 19:58:40,511 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/pages
+2025-07-25 19:58:46,842 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/pages
+2025-07-25 19:58:46,843 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/pages
+2025-07-25 19:58:48,846 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/pages/new
+2025-07-25 19:58:54,497 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/pages/new
+2025-07-25 19:58:54,499 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/pages/new
+2025-07-25 19:58:56,501 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/announcements
+2025-07-25 19:59:01,982 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/announcements
+2025-07-25 19:59:01,983 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/announcements
+2025-07-25 19:59:03,984 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/announcements/new
+2025-07-25 19:59:09,655 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/announcements/new
+2025-07-25 19:59:09,659 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/announcements/new
+2025-07-25 19:59:11,660 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/faqs
+2025-07-25 19:59:16,864 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/faqs
+2025-07-25 19:59:16,866 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/faqs
+2025-07-25 19:59:18,868 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/faqs/new
+2025-07-25 19:59:24,520 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/faqs/new
+2025-07-25 19:59:24,522 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/faqs/new
+2025-07-25 19:59:24,805 - INFO - 📦 Pedido de muestra creado: ORD-20250725-5802 (ID: 12)
+2025-07-25 19:59:26,806 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/changelogs
+2025-07-25 19:59:31,796 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/changelogs
+2025-07-25 19:59:31,798 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/changelogs
+2025-07-25 19:59:33,800 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/changelogs/new
+2025-07-25 19:59:39,059 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/changelogs/new
+2025-07-25 19:59:39,060 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/changelogs/new
+2025-07-25 19:59:41,062 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration
+2025-07-25 19:59:46,565 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/configuration
+2025-07-25 19:59:46,566 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/configuration
+2025-07-25 19:59:48,567 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/audit
+2025-07-25 19:59:53,289 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/audit
+2025-07-25 19:59:53,290 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/audit
+2025-07-25 19:59:55,291 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/import
+2025-07-25 20:00:00,164 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/configuration/import
+2025-07-25 20:00:00,191 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/configuration/import
+2025-07-25 20:00:02,194 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/pages/new/en
+2025-07-25 20:00:07,281 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/pages/new/en
+2025-07-25 20:00:07,282 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/pages/new/en
+2025-07-25 20:00:07,567 - INFO - 📦 Pedido de muestra creado: ORD-20250725-1672 (ID: 13)
+2025-07-25 20:00:09,568 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/pages/new/es
+2025-07-25 20:00:14,478 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/pages/new/es
+2025-07-25 20:00:14,479 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/pages/new/es
+2025-07-25 20:00:14,761 - INFO - 📦 Pedido de muestra creado: ORD-20250725-1898 (ID: 14)
+2025-07-25 20:00:16,764 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/announcements/new/en
+2025-07-25 20:00:21,826 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/announcements/new/en
+2025-07-25 20:00:21,827 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/announcements/new/en
+2025-07-25 20:00:23,828 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/announcements/new/es
+2025-07-25 20:00:28,838 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/announcements/new/es
+2025-07-25 20:00:28,839 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/announcements/new/es
+2025-07-25 20:00:30,840 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/faqs/new/en
+2025-07-25 20:00:36,106 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/faqs/new/en
+2025-07-25 20:00:36,107 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/faqs/new/en
+2025-07-25 20:00:36,399 - INFO - 📦 Pedido de muestra creado: ORD-20250725-5198 (ID: 15)
+2025-07-25 20:00:38,404 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/faqs/new/es
+2025-07-25 20:00:43,429 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/faqs/new/es
+2025-07-25 20:00:43,431 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/faqs/new/es
+2025-07-25 20:00:45,433 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/alert-bar
+2025-07-25 20:00:50,819 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/configuration/alert-bar
+2025-07-25 20:00:50,821 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/configuration/alert-bar
+2025-07-25 20:00:52,824 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/info-modal
+2025-07-25 20:00:57,982 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/configuration/info-modal
+2025-07-25 20:00:57,984 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/configuration/info-modal
+2025-07-25 20:00:59,986 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/payment
+2025-07-25 20:01:05,057 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/configuration/payment
+2025-07-25 20:01:05,058 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/configuration/payment
+2025-07-25 20:01:07,060 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/delivery
+2025-07-25 20:01:13,606 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/configuration/delivery
+2025-07-25 20:01:13,607 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/configuration/delivery
+2025-07-25 20:01:15,608 - INFO - 🔍 Explorando: https://admin.besmartdelivery.mx/configuration/settings
+2025-07-25 20:01:23,230 - INFO - 💾 Datos guardados en PostgreSQL: https://admin.besmartdelivery.mx/configuration/settings
+2025-07-25 20:01:23,231 - INFO - ✅ Datos extraídos y guardados en DB: https://admin.besmartdelivery.mx/configuration/settings
+2025-07-25 20:01:28,094 - INFO - ✅ Navegador cerrado correctamente.
+2025-07-25 20:01:28,097 - INFO - 🔌 Conexión a PostgreSQL cerrada
+2025-07-25 20:01:28,097 - INFO - ✅ Conexión a base de datos cerrada.
+2025-07-25 20:01:28,098 - ERROR - ❌ Error obteniendo resumen de pedidos: cursor already closed
+2025-07-25 20:01:28,098 - INFO - ✅ SmartAgent Orders finalizado

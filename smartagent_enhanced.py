@@ -322,7 +322,7 @@ class SmartAgentEnhanced:
             from webdriver_manager.chrome import ChromeDriverManager
             from selenium.webdriver.chrome.service import Service
             
-            # Configuración simple del ChromeDriver
+            # Instalar ChromeDriver automáticamente
             chrome_path = ChromeDriverManager().install()
             service = Service(chrome_path)
             
@@ -332,40 +332,13 @@ class SmartAgentEnhanced:
             chrome_options.add_argument("--disable-gpu")
             chrome_options.add_argument("--window-size=1920,1080")
             chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
-            chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-            chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-            chrome_options.add_experimental_option('useAutomationExtension', False)
             
             self.driver = webdriver.Chrome(service=service, options=chrome_options)
-            self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
             logging.info("✅ ChromeDriver automático instalado")
             return True
             
         except Exception as e:
             logging.error(f"❌ Error configurando ChromeDriver: {e}")
-            logging.info("🔄 Intentando configuración alternativa...")
-            return self.setup_driver_alternative()
-    
-    def setup_driver_alternative(self):
-        """Configuración alternativa del ChromeDriver"""
-        try:
-            from selenium import webdriver
-            from selenium.webdriver.chrome.options import Options
-            
-            chrome_options = Options()
-            chrome_options.add_argument("--no-sandbox")
-            chrome_options.add_argument("--disable-dev-shm-usage")
-            chrome_options.add_argument("--disable-gpu")
-            chrome_options.add_argument("--headless")  # Ejecutar en modo headless
-            chrome_options.add_argument("--window-size=1920,1080")
-            chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
-            
-            self.driver = webdriver.Chrome(options=chrome_options)
-            logging.info("✅ ChromeDriver configurado en modo headless")
-            return True
-            
-        except Exception as e:
-            logging.error(f"❌ Error con configuración alternativa: {e}")
             return False
     
     def login(self):
@@ -397,12 +370,7 @@ class SmartAgentEnhanced:
                 (By.CSS_SELECTOR, "button[type='submit']"),
                 (By.CSS_SELECTOR, "input[type='submit']"),
                 (By.XPATH, "//button[contains(text(), 'Login')]"),
-                (By.XPATH, "//input[@value='Login']"),
-                (By.XPATH, "//button[@class='button login main']"),
-                (By.CSS_SELECTOR, "button.button.login.main"),
-                (By.XPATH, "//button[text()='Login']"),
-                (By.XPATH, "//*[contains(@class, 'login')]"),
-                (By.XPATH, "//*[contains(@class, 'button')]")
+                (By.XPATH, "//input[@value='Login']")
             ]
             
             # Buscar campo de usuario
