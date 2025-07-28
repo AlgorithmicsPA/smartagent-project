@@ -37,7 +37,7 @@ DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://***USUARIO_OCULTO***:***C
 
 # Credenciales del admin panel
 ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "manus")
-ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "123")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "***CONTRASEÑA_OCULTA***")
 
 # Configuración de logging
 os.makedirs("logs", exist_ok=True)

@@ -26,7 +26,7 @@ DATABASE_URL = "postgresql://***USUARIO_OCULTO***:***CONTRASEÑA_OCULTA***@***HO
 
 # Credenciales del admin panel
 ADMIN_USERNAME = "manus"
-ADMIN_PASSWORD = "123"
+ADMIN_PASSWORD = "***CONTRASEÑA_OCULTA***"
 
 # Configuración de logging
 os.makedirs("logs", exist_ok=True)
