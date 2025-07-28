@@ -10,7 +10,7 @@ import time
 LOGIN_URL = "https://admin.besmartdelivery.mx/"
 TASKS_URL = "https://admin.besmartdelivery.mx/tasks?status=REQUIRES_CONFIRMATION&status=PROCESSED&status=INPREPARATION&status=READYFORCOLLECTION&status=ONTHEWAY&status=ATLOCATION"
 ADMIN_USERNAME = "federico"
-ADMIN_PASSWORD = "28ZwnPHQRC*H4BmfmEB-YHcC"
+ADMIN_PASSWORD = "***CONTRASEÑA_OCULTA***"
 
 def debug_html():
     """Debug del HTML recibido"""

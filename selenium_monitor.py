@@ -20,7 +20,7 @@ from selenium.webdriver.chrome.service import Service
 LOGIN_URL = "https://admin.besmartdelivery.mx/"
 TASKS_URL = "https://admin.besmartdelivery.mx/tasks"
 ADMIN_USERNAME = "federico"
-ADMIN_PASSWORD = "28ZwnPHQRC*H4BmfmEB-YHcC"
+ADMIN_PASSWORD = "***CONTRASEÑA_OCULTA***"
 
 class SeleniumMonitor:
     def __init__(self):
