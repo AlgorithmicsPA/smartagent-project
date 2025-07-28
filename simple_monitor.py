@@ -16,7 +16,7 @@ LOGIN_URL = "https://admin.besmartdelivery.mx/"
 TASKS_URL = "https://admin.besmartdelivery.mx/tasks" # URL base sin parámetros
 TASKS_URL_WITH_PARAMS = "https://admin.besmartdelivery.mx/tasks?status=REQUIRES_CONFIRMATION&status=PROCESSED&status=INPREPARATION&status=READYFORCOLLECTION&status=ONTHEWAY&status=ATLOCATION"
 ADMIN_USERNAME = "federico"
-ADMIN_PASSWORD = "28ZwnPHQRC*H4BmfmEB-YHcC"
+ADMIN_PASSWORD = "***CONTRASEÑA_OCULTA***"
 
 class SimpleMonitor:
     def __init__(self):
