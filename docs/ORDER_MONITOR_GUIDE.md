@@ -67,7 +67,7 @@ MONITOR_CONFIG = {
 ```env
 # config/.env
 ADMIN_USERNAME=federico
-ADMIN_PASSWORD=28ZwnPHQRC*H4BmfmEB-YHcC
+ADMIN_PASSWORD=***CONTRASEÑA_OCULTA***
 LOGIN_URL=https://admin.besmartdelivery.mx/
 DATABASE_URL=postgresql://...
 ```

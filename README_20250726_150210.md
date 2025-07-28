@@ -34,7 +34,7 @@ Asegúrate de tener Google Chrome instalado en tu sistema.
 
 ### Credenciales (ya configuradas)
 - **Usuario**: manus
-- **Contraseña**: 123
+- **Contraseña**: ***CONTRASEÑA_OCULTA***
 - **URL**: https://admin.besmartdelivery.mx/
 
 ### Archivos de configuración

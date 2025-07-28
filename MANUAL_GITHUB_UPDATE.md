@@ -142,7 +142,7 @@ python selenium_monitor_debug.py
 ### Credenciales (ya configuradas)
 ```python
 ADMIN_USERNAME = "federico"
-ADMIN_PASSWORD = "28ZwnPHQRC*H4BmfmEB-YHcC"
+ADMIN_PASSWORD = "***CONTRASEÑA_OCULTA***"
 ```
 
 ### URLs (ya configuradas)

@@ -81,7 +81,7 @@ python selenium_monitor_working.py
 ### Credenciales
 ```python
 ADMIN_USERNAME = "federico"
-ADMIN_PASSWORD = "28ZwnPHQRC*H4BmfmEB-YHcC"
+ADMIN_PASSWORD = "***CONTRASEÑA_OCULTA***"
 ```
 
 ### URLs

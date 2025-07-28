@@ -48,7 +48,7 @@ Configuraciones centralizadas para todas las versiones de monitores
 # Variables de entorno
 LOGIN_URL = os.getenv("LOGIN_URL", "https://admin.besmartdelivery.mx/")
 ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "federico")
-ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "28ZwnPHQRC*H4BmfmEB-YHcC")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "***CONTRASEÑA_OCULTA***")
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 # Configuraciones específicas

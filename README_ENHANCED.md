@@ -138,10 +138,10 @@ El **SmartAgent Enhanced** es un sistema completo que combina **exploración web
 ```env
 # Credenciales de acceso para SmartAgent
 ADMIN_USERNAME=federico
-ADMIN_PASSWORD=28ZwnPHQRC*H4BmfmEB-YHcC
+ADMIN_PASSWORD=***CONTRASEÑA_OCULTA***
 START_URL=https://admin.besmartdelivery.mx/
 LOGIN_URL=https://admin.besmartdelivery.mx/
-DATABASE_URL=postgresql://neondb_owner:npg_I6sKUNeof9qb@ep-long-wave-adza01b9-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+DATABASE_URL=postgresql://***USUARIO_OCULTO***:***CONTRASEÑA_OCULTA***@***HOST_OCULTO***/***DB_OCULTA***?sslmode=require&channel_binding=require
 ```
 
 ### 2. **Scripts Principales**

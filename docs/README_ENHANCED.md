@@ -138,10 +138,10 @@ El **SmartAgent Enhanced** es un sistema completo que combina **exploración web
 ```env
 # Credenciales de acceso para SmartAgent
 ADMIN_USERNAME=federico
-ADMIN_PASSWORD=28ZwnPHQRC*H4BmfmEB-YHcC
+ADMIN_PASSWORD=***CONTRASEÑA_OCULTA***
 START_URL=https://admin.besmartdelivery.mx/
 LOGIN_URL=https://admin.besmartdelivery.mx/
-DATABASE_URL=postgresql://neondb_owner:npg_I6sKUNeof9qb@ep-long-wave-adza01b9-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+DATABASE_URL=postgresql://***USUARIO_OCULTO***:***CONTRASEÑA_OCULTA***@***HOST_OCULTO***/***DB_OCULTA***?sslmode=require&channel_binding=require
 ```
 
 ### 2. **Scripts Principales**
@@ -248,16 +248,3 @@ python show_database_structure.py
 ├── 📄 README_ENHANCED.md          # Este archivo
 └── 📁 logs/                       # Logs del sistema
 ```
-
-## 🎉 Conclusión
-
-El **SmartAgent Enhanced** representa un sistema completo y robusto que va más allá de la simple exploración web. Con **28 tablas relacionadas**, **múltiples funcionalidades integradas** y una **arquitectura escalable**, proporciona una base sólida para un sistema de gestión de pedidos y delivery completamente automatizado.
-
-La estructura complementaria de la base de datos permite:
-- **Gestión completa del ciclo de vida** de los pedidos
-- **Análisis avanzado** de datos y comportamiento
-- **Integración con múltiples sistemas** externos
-- **Escalabilidad** para crecimiento futuro
-- **Trazabilidad completa** de todas las operaciones
-
-¡El sistema está listo para producción y puede manejar un volumen significativo de datos y operaciones! 

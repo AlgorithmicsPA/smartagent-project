@@ -62,7 +62,7 @@ MONITOR_CONFIG = {
 ```bash
 LOGIN_URL=https://admin.besmartdelivery.mx/
 ADMIN_USERNAME=federico
-ADMIN_PASSWORD=28ZwnPHQRC*H4BmfmEB-YHcC
+ADMIN_PASSWORD=***CONTRASEÑA_OCULTA***
 DATABASE_URL=postgresql://...
 ```
 

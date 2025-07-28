@@ -62,7 +62,7 @@ MONITOR_CONFIG = {
 ```bash
 LOGIN_URL=https://admin.besmartdelivery.mx/
 ADMIN_USERNAME=federico
-ADMIN_PASSWORD=28ZwnPHQRC*H4BmfmEB-YHcC
+ADMIN_PASSWORD=***CONTRASEÑA_OCULTA***
 DATABASE_URL=postgresql://...
 ```
 
@@ -246,7 +246,7 @@ curl -I https://admin.besmartdelivery.mx/
 ```bash
 # Verificar credenciales
 echo $ADMIN_USERNAME
-echo $ADMIN_PASSWORD
+echo $ADMIN_PASSWORD  # ***CONTRASEÑA_OCULTA***
 
 # Probar login manual
 python -c "import requests; r = requests.get('$LOGIN_URL'); print(r.status_code)"
